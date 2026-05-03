@@ -60,7 +60,7 @@ const renderRow = (item: Parent) => (
          
          {role === "admin" && (
            <>
-           <FormModel table="parent" type="edit" data={item}/>
+           <FormModel table="parent" type="update" data={item}/>
             <FormModel table="parent" type="delete" id={item.id}/>
            </>
           
