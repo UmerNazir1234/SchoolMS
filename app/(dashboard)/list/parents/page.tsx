@@ -87,7 +87,7 @@ const StudentListpage = () => {
               <Image src="/sort.png" alt="Sort" width={14} height={14} />
             </button>
             {role === "admin" && (
-             <FormModel table="parent" type="plus" />
+             <FormModel table="parent" type="create" />
             )}
           </div>
         </div>
